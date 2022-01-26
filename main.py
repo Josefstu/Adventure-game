@@ -13,8 +13,7 @@ print("You awake on a hard stone floor. In a room illuminated by torches mounted
 StartGame = input()
 if StartGame == 'y':
     pass
-if StartGame == 'n':
-    print("This was not optional, try again")
+
 
 print("As you come to your feet you see something illuminating at the end of the hall, you begin walking towards it")
 

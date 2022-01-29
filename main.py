@@ -1,4 +1,4 @@
-
+import sys
 import time
 
 
@@ -19,10 +19,13 @@ print('''
 print("You awake on a hard stone floor. In a room illuminated by torches mounted to the wall. The damp and cold leads you to believe you may be underground \n"
       "As you begin to stand you see you can follow the long hallway ahead. Will you embark on this adventure? y/n \n")
 
-StartGame = input()
-if StartGame == 'y':
-    pass
 
+StartGame = input()
+
+if StartGame == 'n':
+    sys.exit()
+else:
+    pass
 
 print("As you come to your feet you see something illuminating at the end of the hall, you begin walking towards it")
 time.sleep(1)
